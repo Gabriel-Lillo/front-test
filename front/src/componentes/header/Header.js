@@ -3,10 +3,11 @@ import React from 'react';
 export const Header = () => {
     return (
         <header>
-            <a href="#"></a>
-            <div className="logo">
-            <box-icon name='store-alt'></box-icon>
-            </div>
+            <a href="#">
+                <div className="logo">
+                    <box-icon name='store-alt' id="shop"></box-icon>
+                </div>
+            </a>
             <ul>
                 <li>
                     <a href="#">INICIO</a>
