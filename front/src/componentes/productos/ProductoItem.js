@@ -7,7 +7,6 @@ export const ProductoItem = ({
     price
 }) => {
 
-    console.log(image)
 
     return (
         <div className="producto">

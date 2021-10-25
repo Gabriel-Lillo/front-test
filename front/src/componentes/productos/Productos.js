@@ -13,7 +13,6 @@ export const Productos = () => {
     const obtenerDatos = async () => {
         const data = await fetch('http://localhost:5000/api/products')
         const items = await data.json()
-        // console.log(items)
         setItem(items)
     }
 
